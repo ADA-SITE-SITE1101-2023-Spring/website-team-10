@@ -120,3 +120,12 @@ ul {
     font-size: 14px;
   }
 }
+
+.container {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.container.show {
+  opacity: 1;
+}
